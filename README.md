@@ -14,8 +14,18 @@ This code is suitable for calculating the evolution of surface density in a disk
 Python with Numpy, Scipy, H5Py, Matplotlib. Latest [Anaconda](https://www.anaconda.com/) is OK.
 
 
-## Author
+## Authors
 
-**Evgeny P. Kurbatov** _Institute of Astronomy, Russian Academy of Sciences_
+### Author of the code
+
+**Evgeny P. Kurbatov** _Institute of Astronomy, Russian Academy of Sciences / Moscow, Russia_
 - <kurbatov@inasan.ru>
 - <evgeny.p.kurbatov@gmail.com>
+
+### Co-authors of the Paper
+
+**Dmitry V. Bisikalo** _Institute of Astronomy of the Russian Academy of Sciences / Moscow, Russia_
+- <bisikalo@inasan.ru>
+
+**Ildar F. Shaikhislamov** _Institute of Laser Physics of the Siberian Branch of the Russian Academy of Sciences / Novosibirsk, Russia_
+- <shaihislamov@laser.nsc.ru>
