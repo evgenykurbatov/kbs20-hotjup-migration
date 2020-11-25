@@ -4,7 +4,7 @@
 
 
 ##
-## Physical constants
+## Fundamental physical constants
 ##
 
 ## Planck's constant [cm^2/s]
@@ -12,7 +12,7 @@ h = 6.626e-27
 hbar = 1.055e-27
 ## Gravitational constant [erg cm/g^2]
 G = 6.67e-8
-## Speed of light [cm/c]
+## Speed of light [cm/s]
 c = 2.99e10
 ## Electron charge [(erg cm)^(1/2)]
 e = 4.803e-10
@@ -24,17 +24,45 @@ m_p = 1.673e-24
 m_n = 1.675e-24
 ## Hydrogen atom mass
 m_H = m_p
-## Electron-Volt
-EV = 1.6022e-12
-eV = EV
-
-## Bohr radius [cm]
-a_Bohr = 5.3e-9
-## Boltzmann constant [erg/K]
-k_B = 1.38e-16
 ## Avogagro constant [mol^{-1}]
 N_Avogadro = 6.02214076e23
-## Universal gas constant [erg/mol/K]
+## Daltons [g]
+## It is 1/12 of the mass of an unbound neutral atom of carbon-12
+## in its nuclear and electronic ground state and at rest.
+## It's very close ot 1/N_Avogadro.
+## https://en.wikipedia.org/wiki/Dalton_(unit)
+m_u = 1.660e-24
+## Boltzmann constant [erg/K]
+k_B = 1.38e-16
+
+
+##
+## Fundamentsl units conversion constants
+##
+
+## Length units
+nm = 1e-7        ## 1e-9 m [cm]
+Angstrom = 1e-8  ## [cm]
+## Energy units
+Joile = 1e7      ## [erg]
+Watt = 1e7       ## J/s [erg/s]
+EV = 1.6022e-12  ## Electron-Volt [erg]
+eV = EV
+## Force units
+Newton = 1e5     ## kg m/s^2 [g cm/s^2]
+## Pressure units
+Pascal = 10.0    ## J/m^3 [erg/cm^3]
+mbar = 1e3       ## 100 Pascal [erg/cm^3]
+
+
+##
+## Derived physical constants
+##
+
+## Bohr radius [cm]
+## hbar^2 / (m_e e^2)
+a_Bohr = 5.2917721067e-9
+## Universal gas constant (in MKT) [erg/mol/K]
 ## k_B N_Avogadro
 R_gas = 8.31446262e7
 ## Universal gas constant [erg/g/mol/K]
@@ -43,9 +71,13 @@ RR_gas = 8.2525343e7
 
 ## Stefan-Boltzmann constant [erg/cm^2/s/K^4]
 ## 2 pi^5 k_B^4 / (15 c^2 h^3)
-sigma_SB = 5.67e-5
+sigma_SB = 5.6704e-5
 ## Radiation constant (or radiation density constant) [erg/cm^3/K^4]
-a_rad = 4.0*sigma_SB/c
+## 4 sigma_SB/c
+a_rad = 7.58e-15
+
+## Elemantary scatter section in bound-free transition of hydrogen atom [cm^2]
+sigma_bf_1 = 7.92e-18
 
 
 ##
@@ -76,17 +108,7 @@ au = AU
 year = 3.1557e7
 yr = year
 
-## (erg/s)/(cm^2*Hz)
-Jy = 1e-23
-
-
-##
-## Units conversion constants
-##
-
-## Length units
-nm = 1e-7        ## Nanometers [cm]
-Angstrom = 1e-8  ## Angstrom [cm]
-## Energy units
-Joile = 1e7  ## [erg]
-Watt = 1e7   ## [erg/s]
+## Energy flux density unit in radio astronomy [(erg/s)/(cm^2*Hz)]
+## In SI it's equals to 10e-26 watts per square metre per hertz
+## https://en.wikipedia.org/wiki/Jansky
+Jansky = 1e-23

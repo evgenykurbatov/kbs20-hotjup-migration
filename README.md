@@ -14,6 +14,15 @@ This code is suitable for calculating the evolution of surface density in a disk
 Python with Numpy, Scipy, H5Py, Matplotlib. Latest [Anaconda](https://www.anaconda.com/) is OK.
 
 
+## Publications
+
+E. P. Kurbatov, D. V. Bisikalo, I. F. Shaikhislamov. _Migration of Hot Jupiters Induced by Atmosphere Outflow_. Astronomy Reports, 2020, Vol. 64, No. 12, Pp. 1000–1009.
+- doi: 10.1134/S1063772920120069
+
+Е. П. Курбатов, Д. В. Бисикало, И. Ф. Шайхисламов, «Миграция горячих юпитеров под действием истечения атмосферы», 2020, Астрон. журн., том 97, № 12, с. 986–996. _(In Russian)_
+- doi: 10.31857/S0004629920120063
+
+
 ## Authors
 
 ### Author of the code
@@ -28,4 +37,4 @@ Python with Numpy, Scipy, H5Py, Matplotlib. Latest [Anaconda](https://www.anacon
 - <bisikalo@inasan.ru>
 
 **Ildar F. Shaikhislamov** _Institute of Laser Physics of the Siberian Branch of the Russian Academy of Sciences / Novosibirsk, Russia_
-- <shaihislamov@laser.nsc.ru>
+- <ildars@ngs.ru>
