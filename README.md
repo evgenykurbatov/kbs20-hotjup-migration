@@ -16,7 +16,7 @@ Python with Numpy, Scipy, H5Py, Matplotlib. Latest [Anaconda](https://www.anacon
 
 ## Publications
 
-E. P. Kurbatov, D. V. Bisikalo, I. F. Shaikhislamov. _Migration of Hot Jupiters Induced by Atmosphere Outflow_. Astronomy Reports, 2020, Vol. 64, No. 12, Pp. 1000–1009.
+E. P. Kurbatov, D. V. Bisikalo, I. F. Shaikhislamov. _Migration of Hot Jupiters Induced by Atmosphere Outflow_. Astronomy Reports, 2020, Vol. 64, No. 12, Pp. 1016–1025.
 - doi: 10.1134/S1063772920120069
 
 Е. П. Курбатов, Д. В. Бисикало, И. Ф. Шайхисламов, «Миграция горячих юпитеров под действием истечения атмосферы», 2020, Астрон. журн., том 97, № 12, с. 986–996. _(In Russian)_
